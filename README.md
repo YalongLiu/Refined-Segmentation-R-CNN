@@ -1,5 +1,5 @@
 # Refined Segmentation R-CNN
-A Deep Learning method to segment punctate white matter lesions (PWMLs); Brain tumor segmentation.
+A Deep Learning method to segment punctate white matter lesions (PWMLs); Brain tumor segmentation.  
 **This repository includes:**  
 1.T1WI of 10 patients for test(Full dataset is not allowed to be exposed)  
 2.Full code for model training and inference   
@@ -21,7 +21,7 @@ This repo borrows tons of code from
 ## Results
 Performance:  
 
-Index|-------Original MRI------|---------SOTA---------|----Mask R-CNN-----|----Our Method--------
+Index|---------Original MRI--------|----------SOTA----------|-----Mask R-CNN------|-----Our Method--------
 :--|:--:|:--:|:--:|:--:
 
 
