@@ -1,19 +1,19 @@
 # Refined Segmentation R-CNN
-A deep learning method to segmentation PWML(punctate white matter lesion), brain tumor segmentation or brain lesion segmentation.  
+A Deep Learning method to segment punctate white matter lesions (PWMLs); Brain tumor segmentation.
 **This repository includes:**  
-1.T1WI MRI of 10 patients for test(Full dataset is not allowed to be exposed)  
-2.Full code for training and inferencing the model  
+1.T1WI of 10 patients for test(Full dataset is not allowed to be exposed)  
+2.Full code for model training and inference   
 3.The link of pre-trained weights on google drive   
 
 ## Requirements
-Python3.6.3  
+Python 3.6.3  
 Tensorflow-gpu 1.12.0  
 CUDA 9.0  
 ## Getting Started
 1.Download the repositories and [weights](https://anonfiles.com/I2xeTaS5m1/model_enhancedrpn_enlargeroi1.3_segnet_crf_pwml_98765_h5).  
 2.Choose a mode in the main.py('inference' or 'training').  
-3.Change parameters in configs.py according to the prompt in the file.  
-4.Enjoy!
+3.Change parameters in configs.py according to the comment  in the file.  
+Enjoy!
 
 ## Acknowledgment
 This repo borrows tons of code from  
