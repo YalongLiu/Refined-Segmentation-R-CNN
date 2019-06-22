@@ -21,7 +21,7 @@ This repo borrows tons of code from
 ## Results
 Performance:  
 
-Index|---------Original MRI--------|----------SOTA----------|-----Mask R-CNN------|-----Our Method--------
+Index|--------Original MRI--------|---------SOTA----------|-----Mask R-CNN------|-----Our Method--------
 :--|:--:|:--:|:--:|:--:
 
 
