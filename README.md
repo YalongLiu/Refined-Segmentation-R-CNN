@@ -19,7 +19,7 @@ CUDA 9.0
 1.Download the repositories and [weights](https://anonfiles.com/I2xeTaS5m1/model_enhancedrpn_enlargeroi1.3_segnet_crf_pwml_98765_h5).  
 2.Choose a mode in the main.py('inference' or 'training').  
 3.(optional)Change parameters in configs.py according to the comment  in the file.  
-4.python ./main.py
+4.python ./main.py  
 Enjoy!
 
 ## Acknowledgment
