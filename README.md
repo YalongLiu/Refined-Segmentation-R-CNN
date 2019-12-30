@@ -16,7 +16,7 @@ Python 3.6.3
 Tensorflow-gpu 1.12.0  
 CUDA 9.0  
 ## Getting Started
-1.Download the repositories and [weights](https://anonfiles.com/I2xeTaS5m1/model_enhancedrpn_enlargeroi1.3_segnet_crf_pwml_98765_h5).  
+1.Download the repositories and [weights](https://drive.google.com/file/d/1EoRhtFphayInBlr9IJmaKXqu8BTt3E7M/view?usp=sharing)  ([Backup Download Link](https://anonfiles.com/I2xeTaS5m1/model_enhancedrpn_enlargeroi1.3_segnet_crf_pwml_98765_h5)).
 2.Choose a mode in the main.py('inference' or 'training').  
 3.(optional)Change parameters in configs.py according to the comment  in the file.  
 4.python ./main.py  
