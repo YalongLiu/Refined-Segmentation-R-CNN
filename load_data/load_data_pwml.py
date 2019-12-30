@@ -54,6 +54,7 @@ class TargetDataset(utils.Dataset):
             self.sample_ids = self.val_ids
         if flag == 'test':
             self.sample_ids = self.test_ids
+        print(flag, 'samples:', self.sample_ids)
         for sample_id in self.sample_ids:
             mask_ids = next(os.walk(config.GT_DIR + '/' + sample_id))[2]
             for mask_id in mask_ids:
@@ -71,7 +72,7 @@ class TargetDataset(utils.Dataset):
         """
         info = self.image_info[image_id]
         path_list = info['path']
-        path = path_list[0] + '/images'
+        path = path_list[0] + '/input'
         for single in path_list[1:]:
             path = path + '/' + single
         image_ori = imread(path)
@@ -85,7 +86,7 @@ class TargetDataset(utils.Dataset):
         """
         info = self.image_info[image_id]
         path_list = info['path']
-        path = path_list[0] + '/masks'
+        path = path_list[0] + '/gt'
         for single in path_list[1:]:
             path = path + '/' + single
         mask_ori = imread(path)

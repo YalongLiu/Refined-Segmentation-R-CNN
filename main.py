@@ -25,6 +25,7 @@ if __name__ == "__main__":
 
     # config.display()
     print('Name:', config.NAME)
+    print("Train/Val/Test=", config.TRAIN_VAL_TEST_RATIO)
 
     # Load dataset
     dataset_train = load_data.TargetDataset(config)

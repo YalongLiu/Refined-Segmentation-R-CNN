@@ -2373,8 +2373,9 @@ class DefineModel():
             # keras.callbacks.LambdaCallback(
             #     on_epoch_end=lambda epoch, logs: self_utils.training_stop_alarm(epoch, logs)),
             # keras.callbacks.LambdaCallback(on_epoch_end=lambda epoch, logs: self_utils.time_show(epoch, logs)),
-            keras.callbacks.ModelCheckpoint(self.checkpoint_path, save_weights_only=True, period=5,
-                                            all_epochs=self.config.EPOCHS),
+            # keras.callbacks.ModelCheckpoint(self.checkpoint_path, save_weights_only=True, period=5,
+            #                                 all_epochs=self.config.EPOCHS),  # My own weights saving strategy
+            keras.callbacks.ModelCheckpoint(self.checkpoint_path, save_best_only=True, save_weights_only=True),
             keras.callbacks.ReduceLROnPlateau(monitor='val_rpn_class_loss', factor=0.5, patience=10, min_lr=0)
         ]
 

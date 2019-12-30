@@ -14,7 +14,7 @@ Liu, Yalong, Jie Li, Ying Wang, Miaomiao Wang, Xianjun Li, Zhicheng Jiao, Jian Y
 
 
 **This repository includes:**  
-1.T1WI of 10 patients for test(Full dataset is not allowed to be made public)  
+1.T1WI of 10 patients for test(Full dataset is not allowed to be made public; Warning:The provided test data is only used to test the code. Please use your own data to train a normal model.)  
 2.Full code for model training and inference   
 3.The link of pre-trained weights on google drive   
 

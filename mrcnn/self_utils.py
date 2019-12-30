@@ -387,6 +387,7 @@ def post_process(dataset_test, model, config, pred_folder_name):
                         imsave(whole_path[n], np.uint8(pred)*255)
                     images = []
                     whole_path = []
+    print('Results saved in:', config.PRED_DIR + '/' + pred_folder_name)
 
 
 def generate_features(dataset, model, config):

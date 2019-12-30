@@ -13,8 +13,8 @@ class ModelConfig(Config):
 
     # The Directory of data
     INPUT_DIR = "./test_data"
-    IMAGE_DIR = INPUT_DIR + "/images"
-    GT_DIR = INPUT_DIR + "/masks"
+    IMAGE_DIR = INPUT_DIR + "/input"
+    GT_DIR = INPUT_DIR + "/gt"
     PRED_DIR = INPUT_DIR + '_pred'
 
     # choose model and data
