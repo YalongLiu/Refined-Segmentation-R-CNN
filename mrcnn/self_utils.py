@@ -344,6 +344,8 @@ def post_process(dataset_test, model, config, pred_folder_name):
         info = dataset_test.image_info[image_id]
         path_list = info['path']
         path = config.PRED_DIR + '/' + pred_folder_name
+        if not os.path.exists(config.PRED_DIR):  # make dir if the save dir is not exist
+            os.mkdir(config.PRED_DIR)
         if not os.path.exists(path):  # make dir if the save dir is not exist
             os.mkdir(path)
         for single in path_list[1:-1]:
@@ -382,8 +384,7 @@ def post_process(dataset_test, model, config, pred_folder_name):
                         else:
                             pred_enlarge = result['masks']
                         pred = np.squeeze(pred_enlarge)
-                        pred = np.array(pred, bool)
-                        imsave(whole_path[n], pred)
+                        imsave(whole_path[n], np.uint8(pred)*255)
                     images = []
                     whole_path = []
 
