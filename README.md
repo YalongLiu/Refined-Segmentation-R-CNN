@@ -3,7 +3,7 @@
 **Accepted by MICCAI2019.**  
 
 Liu, Yalong, Jie Li, Ying Wang, Miaomiao Wang, Xianjun Li, Zhicheng Jiao, Jian Yang, and Xingbo Gao. "Refined Segmentation R-CNN: A Two-Stage Convolutional Neural Network for Punctate White Matter Lesion Segmentation in Preterm Infants." In International Conference on Medical Image Computing and Computer-Assisted Intervention, pp. 193-201. Springer, Cham, 2019.  
-![MICCAI2019_logo](./mrcnn/MICCAI2019_logo.png)  
+![MICCAI2019_logo](./imgs/MICCAI2019_logo.png)  
 
 --A Deep Learning method to segment punctate white matter lesions (PWMLs); Brain tumor segmentation.  
 
@@ -39,13 +39,13 @@ Index|--------Original MRI--------|---------SOTA----------|-----Mask R-CNN------
 :--|:--:|:--:|:--:|:--:
 
 
-&nbsp;8/77&nbsp;|![8_77](./results/8_77.png)
+&nbsp;8/77&nbsp;|![8_77](./imgs/8_77.png)
 :--|:--:|
-&nbsp;79/67&nbsp;|![79_67](./results/79_67.png)  
-&nbsp;82/67&nbsp;|![82_67](./results/82_67.png)  
-&nbsp;83/48&nbsp;|![83_48](./results/83_48.png)  
-&nbsp;83/54&nbsp;|![83_54](./results/83_54.png)
-&nbsp;83/80&nbsp;|![83_80](./results/83_80.png)
+&nbsp;79/67&nbsp;|![79_67](./imgs/79_67.png)  
+&nbsp;82/67&nbsp;|![82_67](./imgs/82_67.png)  
+&nbsp;83/48&nbsp;|![83_48](./imgs/83_48.png)  
+&nbsp;83/54&nbsp;|![83_54](./imgs/83_54.png)
+&nbsp;83/80&nbsp;|![83_80](./imgs/83_80.png)
 
 -----
 ### Citation
