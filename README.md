@@ -23,7 +23,7 @@ Python 3.6.3
 Tensorflow-gpu 1.12.0  
 CUDA 9.0  
 ## Getting Started
-1.Download the repositories and [weights](https://drive.google.com/file/d/1EoRhtFphayInBlr9IJmaKXqu8BTt3E7M/view?usp=sharing)  ([Backup Download Link](https://anonfiles.com/I2xeTaS5m1/model_enhancedrpn_enlargeroi1.3_segnet_crf_pwml_98765_h5)).  
+1.Download the repositories and weights([GoogleDrive](https://drive.google.com/file/d/1EoRhtFphayInBlr9IJmaKXqu8BTt3E7M/view?usp=sharing) or [Anonfiles](https://anonfiles.com/I2xeTaS5m1/model_enhancedrpn_enlargeroi1.3_segnet_crf_pwml_98765_h5) or [BaiduYun](https://pan.baidu.com/s/1rdlAWDasaVt6UF7X_AhRNg)).  
 2.Choose a mode in the main.py('inference' or 'training').  
 3.(optional)Change parameters in configs.py according to the comment  in the file.  
 4.python ./main.py  
@@ -53,6 +53,7 @@ If you use Refined Segmentation R-CNN in your research, please cite the paper([M
 ```
 Liu, Yalong, Jie Li, Ying Wang, Miaomiao Wang, Xianjun Li, Zhicheng Jiao, Jian Yang, and Xingbo Gao. "Refined Segmentation R-CNN: A Two-Stage Convolutional Neural Network for Punctate White Matter Lesion Segmentation in Preterm Infants." In International Conference on Medical Image Computing and Computer-Assisted Intervention, pp. 193-201. Springer, Cham, 2019.
 ```
+For  more information about me, please refer to my [personal website](https://yalongliu.github.io/)
 
 
 
