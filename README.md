@@ -1,9 +1,9 @@
 # Refined Segmentation R-CNN
   
 **Accepted by MICCAI2019.**  
-![MICCAI2019_logo](./mrcnn/MICCAI2019_logo.png)  
-  
+
 Liu, Yalong, Jie Li, Ying Wang, Miaomiao Wang, Xianjun Li, Zhicheng Jiao, Jian Yang, and Xingbo Gao. "Refined Segmentation R-CNN: A Two-Stage Convolutional Neural Network for Punctate White Matter Lesion Segmentation in Preterm Infants." In International Conference on Medical Image Computing and Computer-Assisted Intervention, pp. 193-201. Springer, Cham, 2019.  
+![MICCAI2019_logo](./mrcnn/MICCAI2019_logo.png)  
 
 --A Deep Learning method to segment punctate white matter lesions (PWMLs); Brain tumor segmentation.  
 
