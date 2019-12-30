@@ -1,7 +1,7 @@
 # Refined Segmentation R-CNN
   
 **Accepted by MICCAI2019.**  
-![MICCAI2019](./mrcnn/MICCAI2019.png)  
+![MICCAI2019_logo](./mrcnn/MICCAI2019_logo.png)  
   
 A Deep Learning method to segment punctate white matter lesions (PWMLs); Brain tumor segmentation.  
 **By:** Yalong Liu<sup>1</sup>, Jie Li<sup>1</sup>, Ying Wang<sup>1</sup>, Miaomiao Wang<sup>2</sup>, Xianjun Li<sup>2</sup>, Zhicheng Jiao<sup>3</sup>, Jian Yang<sup>2</sup>, Xingbo Gao<sup>1</sup>  
