@@ -1,4 +1,8 @@
 # Refined Segmentation R-CNN
+  
+**Accepted by MICCAI2019.**  
+![MICCAI2019](./mrcnn/MICCAI2019.png)  
+  
 A Deep Learning method to segment punctate white matter lesions (PWMLs); Brain tumor segmentation.  
 **By:** Yalong Liu<sup>1</sup>, Jie Li<sup>1</sup>, Ying Wang<sup>1</sup>, Miaomiao Wang<sup>2</sup>, Xianjun Li<sup>2</sup>, Zhicheng Jiao<sup>3</sup>, Jian Yang<sup>2</sup>, Xingbo Gao<sup>1</sup>  
 1. Lab of Video and Image Processing Systems, School of Electronic Engineering, Xidian University, Xi’an 710071, China  
@@ -16,7 +20,7 @@ Python 3.6.3
 Tensorflow-gpu 1.12.0  
 CUDA 9.0  
 ## Getting Started
-1.Download the repositories and [weights](https://drive.google.com/file/d/1EoRhtFphayInBlr9IJmaKXqu8BTt3E7M/view?usp=sharing)  ([Backup Download Link](https://anonfiles.com/I2xeTaS5m1/model_enhancedrpn_enlargeroi1.3_segnet_crf_pwml_98765_h5)).
+1.Download the repositories and [weights](https://drive.google.com/file/d/1EoRhtFphayInBlr9IJmaKXqu8BTt3E7M/view?usp=sharing)  ([Backup Download Link](https://anonfiles.com/I2xeTaS5m1/model_enhancedrpn_enlargeroi1.3_segnet_crf_pwml_98765_h5)).  
 2.Choose a mode in the main.py('inference' or 'training').  
 3.(optional)Change parameters in configs.py according to the comment  in the file.  
 4.python ./main.py  
@@ -42,14 +46,9 @@ Index|--------Original MRI--------|---------SOTA----------|-----Mask R-CNN------
 
 -----
 ### Citation
-If you use Refined Segmentation R-CNN in your research, please cite the paper ([http://arxiv.org/abs/1906.09684](http://arxiv.org/abs/1906.09684)):
+If you use Refined Segmentation R-CNN in your research, please cite the paper([MICCAI2019-Springer](https://link.springer.com/chapter/10.1007%2F978-3-030-32248-9_22)) or ([Arxiv](http://arxiv.org/abs/1906.09684)):
 ```
-@article{Liu2019,
-  title={Refined Segmentation R-CNN: A Two-stage Convolutional Neural Network for Punctate White Matter Lesion Segmentation in Preterm Infants},
-  author={Yalong Liu, Jie Li, Ying Wang, Miaomiao Wang, Xianjun Li, Zhicheng Jiao, Jian Yang, Xingbo Gao},
-  journal={arXiv preprint arXiv:1906.09684},
-  year={2019}
-}
+Liu, Yalong, Jie Li, Ying Wang, Miaomiao Wang, Xianjun Li, Zhicheng Jiao, Jian Yang, and Xingbo Gao. "Refined Segmentation R-CNN: A Two-Stage Convolutional Neural Network for Punctate White Matter Lesion Segmentation in Preterm Infants." In International Conference on Medical Image Computing and Computer-Assisted Intervention, pp. 193-201. Springer, Cham, 2019.
 ```
 
 
